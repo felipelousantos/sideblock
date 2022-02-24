@@ -6,52 +6,23 @@
 			"palette": [
 				{
 					"slug": "background",
-					"color": "#1d2327",
+					"color": "#f1f1f1",
 					"name": "Background"
 				},
 				{
-					"slug": "foreground",
-					"color": "#f0f0f1",
-					"name": "Foreground"
-				},
-				{
 					"slug": "primary",
-					"color": "#5093d4",
+					"color": "#ffffff",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#153956",
+					"color": "#333333",
 					"name": "Secondary"
 				},
 				{
 					"slug": "transparent",
 					"color": "transparent",
 					"name": "Transparent"
-				}
-			],
-			"gradients": [
-				{
-					"slug": "primary-white",
-					"gradient": "linear-gradient(#5093d4 49.9%,#fff 50%)",
-					"name": "Primary color to white"
-				},
-				{
-					"slug": "white-primary",
-					"gradient": "linear-gradient(#fff 49.9%,#5093d4 50%)",
-					"name": "Horizontal white to Primary color"
-				}
-			],
-			"duotone": [
-				{
-					"colors": [ "#153956", "#5093d4"],
-					"slug": "secondary-primary",
-					"name": "Secondary and primary"
-				},
-				{
-					"colors": ["#5093d4", "#f0f0f1"],
-					"slug": "primary-foreground",
-					"name": "Primary and foreground"
 				}
 			]
 		},
@@ -137,7 +108,7 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--background)",
-			"text": "var(--wp--preset--color--foreground)"
+			"text": "var(--wp--preset--color--secondary)"
 		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--medium)",
@@ -147,7 +118,7 @@
 		"elements": {
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--secondary)"
 				}
 			}
 		},
@@ -155,7 +126,7 @@
 			"core/button": {
 				"color": {
 					"background": "var(--wp--preset--color--secondary)",
-					"text": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--primary)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
@@ -177,7 +148,7 @@
 			},
 			"core/code": {
 				"color": {
-					"text": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--primary)"
 				}
 			},
 			"core/post-navigation-link": {

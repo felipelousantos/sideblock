@@ -1,0 +1,10 @@
+.wp-block-page-list a, .wp-block-site-title a, .wp-block-post-title a {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+	a:hover, a:focus {
+	opacity: 1;
+	text-decoration: none;
+}
+
